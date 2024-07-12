@@ -1,0 +1,204 @@
+#header {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-header>h1 {
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;
+    margin-bottom: 0px;
+}
+
+.container-header>p {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+#resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    height: 100vh;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1.5fr 0.3fr 2.6fr 1fr;
+
+    gap: 15px;
+}
+
+.picture {
+    grid-column: 1/2;
+    grid-row: 1/3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutme {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.aboutme-header>h2 {
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding: 0px;
+    m
+}
+
+.about-para {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.dob {
+    grid-column: 3/4;
+    grid-row: 1/2;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.dob>h2 {
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 0px;
+    text-align: end;
+}
+
+.dob>p {
+    color: grey;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 0px;
+    text-align: end;
+}
+
+.paradob {
+    margin-top: 0px;
+}
+
+.education {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    display: flex;
+    flex-direction: column;
+}
+
+.education>h2 {
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 5px;
+
+}
+
+.education-para {
+    margin: 0px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+
+.education-para>ul p {
+    margin: 10px;
+}
+
+.experience {
+    grid-column: 2/3;
+    grid-row: 3/4;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.experience>h2 {
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 5px;
+}
+
+.experience-para {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.education-para>ul p {
+    margin: 0px;
+}
+
+.contact {
+    grid-column: 3/4;
+    grid-row: 3/4;
+
+}
+
+.contact-para {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.contact>h2 {
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px;
+
+}
+
+.language {
+    display: flex;
+    flex-direction: column;
+}
+
+.language>h2 {
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px;
+
+}
